@@ -1,12 +1,12 @@
 # CSE4110 Database System Project 2
 
-## 1. 프로젝트 설명
+## 1. Project Explanation
 
-project 1에서 작성한 스키마를 바탕으로 논리적 스키마를 구축하고 쿼리문을 날려 정보를 조회하는 프로젝트이다.
+It is a project that builds a logical schema based on the schema created by project 1 and inquires about information by blowing query statements.
 
-mysql workbench를 통해 Database를 논리적 스키마로 구축하였고, 이 데이터베이스에 mysql로 작성된 쿼리를 날려 원하는 정보를 조회하거나 생성하는 C++ 프로그램을 작성했다.
+The database was built as a logical schema through mysql workbench, and a C++ program was created to query or generate desired information by sending a query written in mysql to this database.
 
-## 2. Data 생성
+## 2. Creating Data
 
 I generated the data considering below conditions.
 
@@ -16,7 +16,7 @@ I generated the data considering below conditions.
 
 3) The property can only be uploaded to the market by an agent, and the deal related to that property can only be participated in by that agent who uploaded it to the market. Therefore, when an 'available' property is registered, the buyer who is willing to buy that property is automatically connected to that agent responsible for that property.
 
-### 3. Program 실행 시 유의사항
+### 3. Guidelines for Program Execution
 
   * Query Type 1-1
     
